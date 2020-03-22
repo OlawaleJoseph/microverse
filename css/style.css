@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    padding: .9em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul, header{
+    display: flex;
+
+}
+
+
+
+header {
+    justify-content: space-between;
+}
+
+
+@media (max-width: 572px) {
+    a{
+        color: green
+    }
+}
